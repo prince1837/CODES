@@ -1,7 +1,7 @@
 first open those file which you want to upload on githhub
 then enter (git init)
 then add (git add .)
-then (git commit)
+then (git commit -m "what ever you want to write")
 then (git push)
 firstcreate a reposetry then you get (git remote add origin https://github.com/prince21298/JAVASCRIPT.git) like this code 
 then do it(git push -u origin master)
