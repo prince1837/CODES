@@ -14,5 +14,5 @@ if we want to Delete the git in it file then type (rm -rf .git)
 if we want to check the status then type( git status)
 if we want to choose 1 file from the File system then type (git add "your file name"/)
 when we want to pull the data then type(git pull)
-if we want to see the data inside our file then type(is)
+if we want to see the data inside our file then type(ls)
 
