@@ -17,4 +17,6 @@ hotspot  code
  create_ap wlp2s0 wlp2s0
 
 
+Make uninstall Create_ap
 
+  sudo apt-get remove hostapd
