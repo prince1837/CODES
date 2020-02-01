@@ -1,349 +1,100 @@
-  1  sudo su
-    2  sudo add-apt-repository pparicotz/docky
-    3  sudo add-apt-repository ppa:ricotz/docky
-    4  sudo su
-    5  sudo apt update && sudo apt upgrade -y
-    6  sudo apt-get update
-    7  sudo su
-    8  sudo apt-get update
-    9  sudo apt-get install mysql-server
-   10  sudo mysql -u root -p
-   11  mysql -u root -p
-   12  mysql
-   13  sudo apt install nodejs
-   14  node --version
-   15  sudo apt install npm
-   16  npm--version
-   17  npm install latest-version
-   18  npm --version
-   19  npm install -g nodemon
-   20  npm install --save-dev nodemon
-   21  git
-   22  sudo apt install git
-1  23  
-   24  sudo apt-get update
-   25  sudo apt-get install -y phpmyadmin
-   26  sudo -H gedit /etc/apache2/apache2.conf
-   27  nano /etc/apache2/apache2.conf
-   28  sudo nano /etc/apache2/apache2.conf
-   29  php -m | grep mcrypt
-   30  sudo php5enmod mcrypt
-   31  php -m | grep mcrypt
-   32  sudo service apache2 restart
-   33  /etc/init.d/apache2 restart
-   34  sudo -H gedit /etc/apache2/apache2.conf
-   35  sudo apt-get install gedit
-   36  sudo -H gedit /etc/apache2/apache2.conf
-   37  /etc/init.d/apache2 restart
-   38  dpkg --status apache2.2-common
-   39  apt-get install --reinstall apache2
-   40  sudo service apache2 restart
-   41  reboot
-   42  mysql -u root -p
-   43  phpmyadmin -v
-   44  phpmyadmin --version
-   45  apache2 --version
-   46  sudo apt-get update
-   47  sudo apt-get purge phpmyadmin
-   48  sudo apt-get purge apache2*
-   49  sudo apt update
-   50  sudo apt-get install -y phpmyadmin
-   51  sudo apt-get update
-   52  sudo apt-get install -y phpmyadmin
-   53  sudo apt-get update
-   54  sudo apt-get install -y phpmyadmin
-   55  sudo apt-get purge phpmyadmin
-   56  sudo apt-get update
-   57  sudo apt-get install -y phpmyadmin
-   58  php -m | grep mcrypt
-   59  sudo php5enmod mcrypt
-   60  sudo service apache2 restart
-   61  sudo apt-get install Apache2
-   62  sudo service Apache2 start
-   63  apache2 --version
-   64  sudo apt install apache2
-   65  sudo apt-get update
-   66  sudo apt install apache2
-   67  reboot
-   68  sudo dpkg --configure -a
-   69  E: _cache->open()
-   70  sudo apt install apache2
-   71  sudo service apache2 restart
-   72  sudo apt-get purge apache
-   73  sudo apt-get install apache2
-   74  sudo -H gedit /etc/apache2/apache2.conf
-   75  apache2 --version
-   76  sudo service apache2 restart
-   77  quit
-   78  exit
-   79  sudo apt-get purge phpmyadmin
-   80  sudo apt-get update
-   81  sudo apt-get install -y phpmyadmin
-   82  php -m | grep mcrypt
-   83  sudo php5enmod mcrypt
-   84  apt-get install php-common
-   85  sudo su
-   86  php -m | grep mcrypt
-   87  sudo php5enmod mcrypt
-   88  apt install mcrypt
-   89  sudo service apache2 restart
-   90  cd /etc/apache2
-   91  apache2ctl configtest
-   92  sudo service apache2 restart
-   93  sudo -H gedit /etc/apache2/apache2.conf
-   94  cd
-   95  sudo -H gedit /etc/apache2/apache2.conf
-   96  /etc/init.d/apache2 restart
-   97  sudo apt-get purge phpmyadmin
-   98  apt-get remove apache2
-   99  exit
-  100  cd Documents/
-  101  mkdir local-files
-  102  cd local-files/
-  103  ifconfig
-  104  cd Documents/Database/blog/
-  105  npm init
-  106  cat package.json 
-  107  npm install mysql -save
-  108  cat package.json
-  109  npm in it
-  110  npm init
-  111  npm install mysql -save
-  112  cat package.json 
-  113  npm install express nodemon dotenv jsonwebtoken -save
-  114  cat package.json 
-  115  sudo npm install nodemon -g
-  116  npm install express nodemon dotenv jsonwebtoken knex  -save
-  117  cat package.json 
-  118  nodemon killall -9 node
-  119  killall -9 node
-  120  nodemon server.js 
-  121  killall -9 node
-  122  nodemon server.js 
-  123  killall -9 node
-  124  nodemon server.js 
-  125  mysql -u root -p
-  126  sudo passwd shiv-ansh
-  127  nodemon server.js 
-  128  sudo su
-  129  exit
-  130  sudo su
-  131  sudo passwd
-  132  sudo passwd shiv-ansh
-  133  ifconfig
-  134  subl
-  135  sudo snap install sublime-text
-  136  sudo apt install sublime-text
-  137  subl
-  138  python
-  139  cd Documents/JavaScript/
-  140  js map.js 
-  142  js map.js 
-  143  sudo su
-  144  ifconfig
-  145  bl
-  146  subl
-  147  js
-  148  cd Documents/JavaScript/
-  149  js map.js 
-  150  js
-  151  js map.js 
-  152  cd Documents/
-  153  cd JavaScript/
-  154  ls
-  155  node loda.js
-  156  node map.js 
-  157  node node.js 
-  158  node loda.js
-  159  clear
-  160  node map.js 
-  161  cd Desktop/
-  162  ls
-  163  cd
-  164  cd Documents/
-  165  cd JavaScript/
-  166  ls
-  167  code map.js
-  168  sudo su
-  169  sudo create_ap wlp2s0 wlp2s0
-  170  reboot
-  171  reebot
-  172  restart
-  173  reebot
-  174  reboot
-  175  sudo create_ap wlp2s0 wlp2s0
-  176  sudo apt upgrade
-  177  sudo create_ap wlp2s0 wlp2s0
-  178  ifconfig
-  179  sudo create_ap wlp2s0 wlp2s0
-  180  subl
-  181  pactl set-sink-volume 0 +20%
-  182  pactl set-sink-volume 0 -20%
-  183  reboot
-  184  sudo create_ap wlp2s0 wlp2s0
-  185  exit
-  186  reebot
-  187  reboot
-  188  subl
-  189  cd Documents/JavaScript/
-  190  js loda.js 
-  191  js node.js 
-  192  sudo create_ap wlp2s0 wlp2s0
-  193  js
-  194  cd Documents/JavaScript/
-  195  js node
-  196  js node.js 
-  197  node node.js 
-  198  cd HackerRank/
-  199  node hacker.js 
-  200  js
-  201  node hacker.js 
-  202  sudo create_ap wlp2s0 wlp2s0
-  203  --no-virt
-  204  subl
-  205  cd Documents/JavaScript/HackerRank/
-  206  node hacker.js 
-  207  cd ..\
-  208  js map.js 
-  209  cd HackerRank/
-  210  js hacker.js 
-  211  sudo create_ap wlp2s0 wlp2s0
-  212  --no-virt.--no-virt.sudo create_ap wlp2s0 wlp2s0
-  213  --no-virt.sudo create_ap wlp2s0 wlp2s0
-  214  sudo create_ap wlp2s0 wlp2s0
-  215  subl
-  216  clear
-  217  cd Documents/JavaScript/HackerRank/
-  218  js hacker.js 
-  219  if cofig;  ef; fwegrttg; 
-  220  ifconfig
-  221  subl
-  222  cd Documents/JavaScript/HackerRank/
-  223  js hacker.js 
-  224  clear
-  225  js hacker.js 
-  226  cd Documents/JavaScript/HackerRank/
-  227  js hacker.js 
-  228  sudo create_ap wlp2s0 wlp2s0
-  229  reboot
-  230  sudo create_ap wlp2s0 wlp2s0
-  231  sudo create_ap wlp2s0 wlp2s0ERROR: Your adapter can not transmit to channel 13, frequency band 2.4GHz.
-  232  sudo su
-  233  history
-  234  rfkill unblock wlan
-  235  sudo create_ap wlp2s0 wlp2s0
-  236  nmcli r wifi off
-  237  nmcli r wifi off
-  238  sudo create_ap wlp2s0 wlp2s0
-  239  sudo su
-  240  sudo create_ap wlp2s0 wlp2s0
-  241  iw list
-  242  cd Documents/
-  243  ls
-  244  Cd local-files/
-  245  cd local-files/
-  246  git clone https://github.com/oblique/create_ap
-  247  cd create_ap
-  248  make install
-  249  sudo create_ap wlp2s0 wlp2s0
-  250  systemctl enable create_ap
-  251  sudo create_ap wlp2s0 wlp2s0
-  252  sudo su
-  253  clear
-  254  sudo create_ap wlp2s0 wlp2s0
-  255  su
-  256  sudo create_ap wlp2s0 wlp2s0
-  257  sudo su
-  258  cd Downloads/
-  259  ls
-  260  cler
-  261  clear
-  262  cd
-  263  clear
-  264  sudo create_ap
-  265  clear
-  266  sudo remove create_ap
-  267  create_ap --stop wlp2s0
-  268  sudo su
-  269  sudo create_ap wlp2s0 wlp2s0
-  270  celr
-  271  clear
-  272  sudo su
-  273  sudo create_ap wlp2s0 wlp2s0
-  274  lspci -vv | grep "Network" -A10
-  275  clear
-  276  lspci -vv | grep "Network" -A10
-  277  sudo create_ap wlp2s0 wlp2s0
-  278  cd Documents/
-  279  clear
-  280  cd
-  281  git clone https://github.com/oblique/create_ap
-  282  cd create_ap
-  283  make install
-  284  systemctl start create_ap
-  285  sudo create_ap wlp2s0 wlp2s0
-  286  clear
-  287  systemctl enable create_ap
-  288  sudo create_ap wlp2s0 wlp2s0
-  289  cd
-  290  sudo su
-  291  sudo create_ap wlp2s0 wlp2s0
-  292  clear
-  293  sudo apt-get remove hostapd
-  294  clear
-  295  sudo create_ap
-  296  clear
-  297  sudo create_ap wlp2s0 wlp2s0 
-  298  clear
-  299  rm -rf create_ap/
-  300  clear
-  301  sudo create_ap 
-  302  clear
-  303  sudo create_ap wlp2s0 wlp2s0
-  304  clear
-  305  sudo checkisntall hostapd
-  306  clear
-  307  sudo su
-  308  sudo checkisntall hostapd
-  309  sudo create_ap wlp2s0 wlp2s0
-  310  cd
-  311  sudo create_ap wlp2s0 wlp2s0
-  312  sudo apt-get remove --auto-remove hostapd
-  313  sudo create_ap wlp2s0 wlp2s0
-  314  sudo checkisntall hostapd
-  315  sudo create_ap wlp2s0 wlp2s0
-  316  su
-  317  sudo checkisntall hostapd
-  318  sudo create_ap wlp2s0 wlp2s0
-  319  rm -rf create_ap/
-  320  rfkill unblock wlp2s0
-  321  rfkill block wlp2s0
-  322  rfkill unblock ap0
-  323  rfkill unblock wlan
-  324  history
-  325  create_ap --stop wlp2s0
-  326  su
-  327  sudo create_ap --fix-unmanaged ap0
-  328  sudo create_ap --fix-unmanaged wlp2s0 wlp2s0
-  329  su
-  330  sudo --unmanaged-fix -h host
-  331  clear
-  332  hotspot karde
-  333  hotspot karde.txt
-  334  js hotspot karde.js
-  335  sudo su
-  336  rfkill unblock wlan
-  337  sudo create_ap --fix-unmanaged wlp2s0 wlp2s0
-  338  sudo create_ap wlp2s0 wlp2s0
-  339  subl
-  340  js
-  341  sudo create_ap wlp2s0 wlp2s0
-  342  python
-  343  node
-  344  cd Documents/JavaScript/HackerRank/
-  345  js hacker.js 
-  346  js
-  347  js hacker.js 
-  348  ifconfig
-  349  sudo su
-
+ sudo apt-get update
+    2  sudo su
+    3  sudo apt-get upgrade
+    4  sudo apt-get update
+    5  sudo apt-get install mysql-server
+    6  sudo mysql -u root -p
+    7  mysql -u root -p
+    8  sudo apt install nodejs
+    9  sudo apt install npm
+   10  npm --version
+   11  sudo apt install npm
+   12  npm --version
+   13  npm install latest-version
+   14  npm --version
+   15  npm install -g nodemon
+   16  npm install --save-dev nodemon
+   17  sudo apt install git
+   18  nodemon --version
+   19  git --version
+   20  cd
+   21  sudo create_ap wlp2s0 wlp2s0
+   22  /tmp
+   23  cd /tmp
+   24  ls
+   25  sudo rm create_ap.all.lock 
+   26  cd
+   27  sudo create_ap wlp2s0 wlp2s0
+   28  cd /tmp
+   29  rm tmp.CF5Mx6eZkn/
+   30  rm create_ap.all.lock 
+   31  sudo create_ap wlp2s0 wlp2s0
+   32  postman
+   33  python3
+   34  ipython3
+   35  sudo apt install ipython3
+   36  ipython3
+   37  subl
+   38  cd Documents/Python/
+   39  pyrhon3 prince.py 
+   40  python3 prince.py 
+   41  python prince.py 
+   42  python3
+   43  python prince.py 
+   44  clear
+   45  python prince.py 
+   46  cd ..
+   47  cd JavaScript/
+   48  git clone https://github.com/prince21298/HACKERRANK.git
+   49  clear
+   50  cd ..
+   51  cd Python/
+   52  python prince.py 
+   53  cd
+   54  ifconfig
+   55  sudo apt install net-tools
+   56  ifconfig
+   57  sudo /etc/init.d/bluetooth start
+   58  sudo apt-get purge blueman bluez-utils bluez bluetooth
+   59  sudo apt-get install blueman bluez-utils bluez bluetooth
+   60  sudo /etc/init.d/bluetooth start
+   61  clear
+   62  sudo apt-get install bluetooth bluez-tools rfkill
+   63  sudo rfkill list
+   64  sudo rfkill unblock blurtooth
+   65  sudo rfkill unblock bluetooth
+   66  sudo rfkill list
+   67  sudo service bluetooth start
+   68  sudo apt-get install blueman
+   69  clear
+   70  pactl load-module module-bluetooth-discover
+   71  clear
+   72  sudo apt-get install bluetooth bluez bluez-tools rfkill
+   73  sudo rfkill list
+   74  sudo rfkill unblock bluetooth
+   75  sudo service bluetooth start
+   76  sudo apt-get install blueman
+   77  lspci -nnk | grep -iA3 net;lsusb;dmesg | egrep -i 'blue|firm
+   78  lspci -nnk | grep -iA3 net
+   79  lsusb
+   80  dmesg | egrep -i 'blue|firm
+   81  sudo apt install frim
+   82  sudo apt install blutooth
+   83  sudo apt install blutooth|firm
+   84  clear
+   85  quit
+   86  exit
+   87  git clone https://github.com/Sanjay2000/Blog_App.git
+   88  sudo create_ap wlp2s0 wlp2s0
+   89  dkpg --configure -a
+   90  dkpg --configure -bluetooth
+   91  sudo su
+   92  sudo create_ap wlp2s0 wlp2s0
+   93  unblock wlan
+   94  unblock WLAN\
+   95  rebot
+   96  reboot
+   97  mysql -u root -p
+   98  clear
+   99  sudo create_ap wlp2s0 wlp2s0
+  100  clear
