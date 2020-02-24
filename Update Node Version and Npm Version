@@ -1,5 +1,0 @@
-npm cache clean -f
-npm install -g n
- sudo su
-n latest
-sudo n latest
