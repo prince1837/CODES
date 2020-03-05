@@ -6,6 +6,12 @@ then (git push)
 firstcreate a reposetry then you get (git remote add origin https://github.com/prince21298/JAVASCRIPT.git) like this code 
 then do it(git push -u origin master)
 
+// one way more to upload your file on github if have clone file
+git status
+git init
+git add .
+git commit
+git push -u origin master
 
 
 
