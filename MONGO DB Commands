@@ -1,0 +1,7 @@
+export collections from mongo DB into json file
+
+    mongoexport -d "database_name" -c "collections_name" -o "jsson_file_name"
+    
+Import collection from json file into mongo DB
+
+    mongoimport -d "database_name" -c "collections_name" "jsson_file_name"
