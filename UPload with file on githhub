@@ -25,3 +25,25 @@ if we want to choose 1 file from the File system then type (git add "your file n
 when we want to pull the data then type(git pull)
 if we want to see the data inside our file then type(ls)
 
+
+
+
+# LIVE PROJECT ON GITHUB
+first you have to clone your file from github through your VS CODE
+then you have to open that direcotory in VS CODE then you have to changewhatever you want if you want to make directory than
+you can make that  one also. if you want to do anything then you can.
+after you have to commit from Source control for that you have to press (ctrl+Shift+G) 
+after that you have to give comment then you have to cllick to right dign.
+then after you have to use extennsion to push or pull code from github.
+first you have to open search bar for that you will (ctrl+Shift+P)
+
+FOR PUSH
+then you have to search "git Push" when you will click to git push after that you have to verify
+for verifying you vs code open will search-bar in this first you have to put your github-id name
+after this vs code will open again search bar for password then you have to put your github password
+
+
+GIT PULL
+then you have to search "git Pull" when you will click to git pull 
+after clicking git pull you will get all updates in from github in your local clone for this you dont need to verify yourself
+
