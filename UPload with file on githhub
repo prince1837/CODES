@@ -86,6 +86,15 @@ then after run this command
 then you will get SSH public key that you have to store in your github SSH key
 
 
+
+YOU ALSO CAN USE THESE COMMAND
+
+ssh-keygen -t rsa -b 4096 -C "your email id in string which is login on github"
+ssh-add ~/"your file name which you gave after putting first command"
+cat .SSH_KEY.pub
+
+
+
 SSH KEY in Github
 must look at this two link.
 https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
