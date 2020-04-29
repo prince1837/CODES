@@ -112,3 +112,14 @@ to pull
 without username and password.
 
 
+# If i am getting this type of PUBLIC_KEY permission denied error so what we have done ---
+you have run this command---
+
+        eval "$(ssh-agent -s)" 
+
+output will come -- generate pid number
+and then run this commamd---
+
+        cat ssh_key.pub
+
+you have get one public_key id and then you have to setting--> ssh_key-->add ssh_key.
