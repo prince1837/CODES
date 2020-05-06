@@ -7,3 +7,9 @@ like first you have to open the mysql database
 then create database in mysql 
 then making a source like this 
 source (then you have to give the database of link like this("/home/shivansh/Documents/Database/turing-backend/database/tshirtshop.sql"))
+
+
+
+
+ALTER USER 'username'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
