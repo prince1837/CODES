@@ -11,7 +11,8 @@ sudo n latest
 
 Basic code to earase packeges or modles
 
-npm uninstall <name> removes the module from node_modules, but not package.json
+removes the module from node_modules, but not package.json
+
 
 npm uninstall <name> --save also removes it from dependencies in package.json
 
