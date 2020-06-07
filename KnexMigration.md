@@ -1,12 +1,12 @@
-Migration
-Migrations & Seeding
+# Migration
+## Migrations & Seeding
 What are migrations??
 Migrations are a way to make database changes or updates, like creating or dropping tables, as well as updating a table with new columns with constraints via generated scripts. We can build these scripts via the command line using knex command line tool.
 
 
 
 
-The role of migrations
+## The role of migrations
 Over time, as we make changes to our application business logic, we will notice that the initial schema, that we thought was appropriate for our needs, becomes out of sync with new features introduced in the application.
 
 While developing web app with Node JS no framework provides proper solution to migration, For this purpose Knex JS as Node JS database migration tool seems best approach so far.
@@ -14,7 +14,9 @@ Knex.js is a query builder for relational database. It supports databases like M
 In this article will introduce some basic concept of Knex JS as Node JS Database Migration Tool.
 Installation
 To use Knex CLI options its recommended to install knex globally first
-npm install knex -g
+		
+		npm install knex -g
+		
 For this demo purpose we will use MySQL, so we need to install Knex and Node JS MySQL driver:
 npm install knex –save
 npm install mysql –save
