@@ -1,6 +1,6 @@
 
 
-install WIFI driver in hp laptop (command for terminal)
+### Install WIFI driver in hp laptop (command for terminal)
 
 sudo apt-get install dkms git build-essential
 git clone -b extended https://github.com/lwfinger/rtlwifi_new.git
