@@ -101,6 +101,10 @@ If these things you are following then after that you can run this command:
 
 		./build/bin/pgloader mysql://mysql_user_name:mysql_password@localhost/mysql_database_name postgres://posgresql_user_name:posgresql_password@localhost/posgresql_database_name
 
+If you want to make you column in snake_case then you can run this command.
+
+		./build/bin/pgloader --verbose --with "snake_case identifiers" mysql://mysql_user_name:mysql_password@localhost/mysql_database_name postgres://posgresql_user_name:posgresql_password@localhost/posgresql_database_name
+
 This is a command which you will run but be aware of your user name, password and database name.
 
 IF YOU FOLLOWED THIS ALL THINGS THEN YOU WILL BE ABLE TO SEE ALL THOSE TABLES OR THAT ONE DATABASE  WHICH YOU MADE IN MYSQL DATABASE.
