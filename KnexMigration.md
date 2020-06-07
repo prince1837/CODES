@@ -1,6 +1,6 @@
 # Migration
 ## Migrations & Seeding
-What are migrations??
+What are migrations?
 Migrations are a way to make database changes or updates, like creating or dropping tables, as well as updating a table with new columns with constraints via generated scripts. We can build these scripts via the command line using knex command line tool.
 
 
