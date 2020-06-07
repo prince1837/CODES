@@ -66,40 +66,45 @@ after this vs code will open again search bar for password then you have to put 
 
 
 # Git Pull
-then you have to search "git Pull`when you will click to git pull 
+then you have to search `git Pull` when you will click to git pull 
 after clicking git pull you will get all updates in from github in your local clone for this you dont need to verify yourself.
 
 
-GIT AUTHOENTICATION
-There is a two way for Authentication
-1, with Local
-2, With SSH_KEY
+# GIT AUTHOENTICATION
+## There is a two way for Authentication
+## 1, with Local
+## 2, With SSH_KEY
 
 
-1, Through Local 
+### 1, Through Local 
 for local there is a four command.
-git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=3600'
-git config --global user.name "prince21298"
-git config --global user.password "your password"
 
-I got that Code from this link
-https://help.github.com/en/github/using-git/caching-your-github-password-in-git#platform-linux
+    git config --global credential.helper cache
+    git config --global credential.helper 'cache --timeout=3600'
+    git config --global user.name "prince21298"
+    git config --global user.password "your password"
+
+#### I got that Code from this [link](https://help.github.com/en/github/using-git/caching-your-github-password-in-git#platform-linux)
+
 But in this you will be able your code-changes but for some time not for all time and there is also some thing like you have
 to run these four code in appropriate file.
 like first you have to open your terminal and after that you will open that file where you clone your repo then you will run 
 these four command.
 its only for time limitation.
 
-2,  Through SSH_KEY
+### 2,  Through SSH_KEY
 for local there is a four command.
+
         ssh-keygen -t rsa -b 4096 -C "your email id which is login on github"
 after enter this you have to give your file name like i gave .SSH_KEY
 then run this you will get id.
+
         eval "$(ssh-agent -s)"
 after run this command for add SSH KEY in .SSH_KEY file.
+
         ssh-add ~/"your file name which you gave after putting first command"
 then after run this command
+
         cat "your file name which you gave after putting first command".pub
 then you will get SSH public key that you have to store in your github SSH key
 
@@ -107,16 +112,16 @@ then you will get SSH public key that you have to store in your github SSH key
 
 YOU ALSO CAN USE THESE COMMAND
 
-ssh-keygen -t rsa -b 4096 -C "your email id in string which is login on github"
-ssh-add ~/"your file name which you gave after putting first command"
-cat .SSH_KEY.pub
+    ssh-keygen -t rsa -b 4096 -C "your email id in string which is login on github"
+    ssh-add ~/"your file name which you gave after putting first command"
+    cat .SSH_KEY.pub
 
 
 
 SSH KEY in Github
 must look at this two link.
-https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-https://zzpanqing.github.io/2017/02/28/github-push-without-username-and-password.html
+#### [link1](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+#### [link2](https://zzpanqing.github.io/2017/02/28/github-push-without-username-and-password.html)
 
 for Github SSH key first you have to open your setting then there you will get "SSH and GPF keys" which you have to click
 then you will get option add for "New SSH key" youhave to click it.
@@ -158,22 +163,22 @@ To resolve by the command line...
 ## linux
 (1) Open the terminal
 (2) Navigate your existing repo that has Merge conflict.
+
         cd /repo
 (3) check the git status
+
         git status
 (4) and Open your vsc(visual studio code)
+
         vsc code
 (5) To see your begining file you got your conflict file. will see like that.
        
-<<<<<<< HEAD
-open an issue
-=======
-ask your question in IRC.
->>>>>>> branch-a
 
 
 (6) Remove all these confliction and white space from your code and then save all those file which have conflict issue
 (7) Add or stage your changes
+
         git add .
 (8) commit changes with your comment
+
         git commit -m "resove the conflict issues!"
