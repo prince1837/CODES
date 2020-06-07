@@ -1,32 +1,46 @@
-first open those file which you want to upload on githhub
-then enter (git init)
-then add (git add .)
-then (git commit -m "what ever you want to write")
-then (git push)
-firstcreate a reposetry then you get (git remote add origin https://github.com/prince21298/JAVASCRIPT.git) like this code 
-then do it(git push -u origin master)
+## first open those file which you want to upload on githhub
+then enter step by step
 
-// one way more to upload your file on github if have clone file
-git status
-git init
-git add .
-git commit
-git push -u origin master
+                git init
+                git add .
+                git commit -m "what ever you want to write"
+                git push
+## firstcreate a reposetry then you get (git remote add origin https://github.com/prince21298/JAVASCRIPT.git) like this code 
+then do it
 
-// To  verify you on github through terminal
-git config --global user.email princekumar1837@gmail.com
-git config --global user.name prince21298
+                git push -u origin master
 
+## one way more to upload your file on github if have clone file
 
+                git status
+                git init
+                git add .
+                git commit
+                git push -u origin master
 
-if we want to Delete the git in it file then type (rm -rf .git)
-if we want to check the status then type( git status)
-if we want to choose 1 file from the File system then type (git add "your file name"/)
-when we want to pull the data then type(git pull)
-if we want to see the data inside our file then type(ls)
+## To  verify you on github through terminal
+
+                git config --global user.email my_Id@gamil.com
+                git config --global user.name userName
 
 
-GITHUB COLABREATOR
+
+if we want to Delete the git in it file then run 
+
+                rm -rf .git
+if we want to check the status then run
+
+                git status
+if we want to choose 1 file from the File system then run 
+                git add "your file name"/
+when we want to pull the data then type
+
+                git pull
+if we want to see the data inside our file then run
+                ls
+
+
+# GITHUB COLABREATOR
 First you have go to your repo then open your setting after that you have to go in manage-acess then you have to give your
 your github password. then manage-acess will open after that you can send invation link to appropriate person whom you want 
 to colabrate after he will accept your invation then he will also able to acess your Repo.
@@ -36,19 +50,23 @@ to colabrate after he will accept your invation then he will also able to acess 
 first you have to clone your file from github through your VS CODE
 then you have to open that direcotory in VS CODE then you have to changewhatever you want if you want to make directory than
 you can make that  one also. if you want to do anything then you can.
-after you have to commit from Source control for that you have to press (ctrl+Shift+G) 
-after that you have to give comment then you have to cllick to right dign.
-then after you have to use extennsion to push or pull code from github.
-first you have to open search bar for that you will (ctrl+Shift+P)
+after you have to commit from Source control for that you have to press 
 
-FOR PUSH
+                ctrl+Shift+G
+after that you have to give comment then you have to cllick to right sign.
+then after you have to use extennsion to push or pull code from github.
+first you have to open search bar for that you will 
+
+                ctrl+Shift+P
+
+# For Push
 then you have to search "git Push" when you will click to git push after that you have to verify
 for verifying you vs code open will search-bar in this first you have to put your github-id name
 after this vs code will open again search bar for password then you have to put your github password
 
 
-GIT PULL
-then you have to search "git Pull" when you will click to git pull 
+# Git Pull
+then you have to search "git Pull`when you will click to git pull 
 after clicking git pull you will get all updates in from github in your local clone for this you dont need to verify yourself.
 
 
