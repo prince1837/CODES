@@ -18,42 +18,55 @@ To use Knex CLI options its recommended to install knex globally first
 		npm install knex -g
 		
 For this demo purpose we will use MySQL, so we need to install Knex and Node JS MySQL driver:
-npm install knex –save
-npm install mysql –save
+
+		npm install knex –save
+		npm install mysql –save
+		
 Usage of Knex JS as Migration Tool
 Knex.js is using knexfile.js for database connection and migration logic.
 Create this file in root of your project using following command :
-knex init	
+
+		knex init
+		
 It will create knexfile.js with different environments (development, staging, production).
 We have used two environments in knexfile.js, which looks like below:
 
-How you will start:
-Use “ knex migrate:latest”=> then you can see that in your database two files are created automatically. And also you can see on vs code that place ‘knex/migration’ name of the folder created.
-After that just create a js file so you can use this one code “ knex migrate: make “file name”
+### How you will start:
+you can see that in your database two files are created automatically. And also you can see on vs code that place ‘knex/migration’ name of the folder created.
+After that just create a js file so you can use this one code 
+
+		knex migrate: make “file name”
+		
 After that, you can see a .js file created and if you will look in the file the you can see two files are there. 
-	exports.up= function(knex){}
-	exports.down=function(knex){}
+	
+		exports.up= function(knex){}
+		exports.down=function(knex){}
 
 
 After that just create table inside the .js file like this one.
-exports.up = function(knex, Promise) {
-  return knex.schema.createTable("City", function(t) {
-    t.increments("id").primary();
-    t.specificType("cityName").notNullable();
-    t.specificType("state").notNullable();
-    t.specificType("country").defaultsTo("US");
-    t.timestamp("createdAt", { useTz: true });
-    t.timestamp("updatedAt", { useTz: true });
-  });
-};
- 
+		
+		exports.up = function(knex, Promise) {
+		  return knex.schema.createTable("City", function(t) {
+		    t.increments("id").primary();
+		    t.specificType("cityName").notNullable();
+		    t.specificType("state").notNullable();
+		    t.specificType("country").defaultsTo("US");
+		    t.timestamp("createdAt", { useTz: true });
+		    t.timestamp("updatedAt", { useTz: true });
+		  });
+		};
+		
+		exports.down = function(knex, Promise) {
+		  return knex.schema.dropTableIfExists("user");
+		};
+after that U can use knex query to create table or update table and whatever you want to do you can write query for that.
+then you will run this command:
 
-exports.down = function(knex, Promise) {
-  return knex.schema.dropTableIfExists("user");
-};
+		knex migrate:latest
 
-The use again migrate latest command “ knex migrate:latest”
-If you want to delete the file then use rollback command: “ knex migrate: rollback’
+If you want to delete the file then use rollback command: 
+
+		knex migrate: rollback
 
 
 Migration file generate two function up and down. Up function is used to create new table or modify existing table. Down function is use for rollback.
@@ -64,34 +77,38 @@ The second function within your migration file is exports.down. This functions g
 Seeding Your Database
 Similar to migrations, the knex module allows us to create scripts to insert initial data into our tables called seed files! If we have relations on our tables, the seeding must be in a specific order to so that we can rely on data that might already be in the database. For example, we must seed the users table first because our tasks table must validate a user id foreign key that already exists.
 Lets create some seed files in this order:
-$ knex seed:make 01_users
-$ knex seed:make 02_tasks
+
+		$ knex seed:make 01_users
+		$ knex seed:make 02_tasks
 Now lets insert some data into our seed scripts:
 Example 01_users.js
-exports.seed = function(knex, Promise) {
- // Deletes ALL existing entries
-   return knex('user').insert([
-     {
-       id: 10,
-       email: 'nigel@email.com',
-       password: 'dorwssap'
-     },
-     {
-       id: 8,
-       email: 'nakaz@email.com',
-       password: 'password1'
-     },
-     {
-       id: 9,
-       email: 'jaywon@email.com',
-       password: 'password123'
-     }
- 
-   ]);
- 
-};
+
+		exports.seed = function(knex, Promise) {
+		 // Deletes ALL existing entries
+		   return knex('user').insert([
+		     {
+		       id: 10,
+		       email: 'nigel@email.com',
+		       password: 'dorwssap'
+		     },
+		     {
+		       id: 8,
+		       email: 'nakaz@email.com',
+		       password: 'password1'
+		     },
+		     {
+		       id: 9,
+		       email: 'jaywon@email.com',
+		       password: 'password123'
+		     }
+
+		   ]);
+		};
+		
 How to call seeds file one by one?
 So if you want to call one by one seed file you can run this code:
-knex seed:run --specific=’full file name’
+
+		knex seed:run --specific=’full file name’
 For specific in migrate create table:
-Knex migrate:latest --specific=’full file name’
+
+		Knex migrate:latest --specific=’full file name’
