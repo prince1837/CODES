@@ -99,7 +99,7 @@ IMPORTANT THING WHICH YOU HAVE TO REMEMBER THAT.
 If these things you are following then after that you can run this command: 
 
 
-./build/bin/pgloader mysql://mysql_user_name:mysql_password@localhost/mysql_database_name postgres://posgresql_user_name:posgresql_password@localhost/posgresql_database_name
+		./build/bin/pgloader mysql://mysql_user_name:mysql_password@localhost/mysql_database_name postgres://posgresql_user_name:posgresql_password@localhost/posgresql_database_name
 
 This is a command which you will run but be aware of your user name, password and database name.
 
