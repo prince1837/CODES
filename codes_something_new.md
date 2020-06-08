@@ -12,19 +12,19 @@
 
 
 
-For changing password
+### For changing password
 
 		sudo passwd (username)
 
-For reboot from terminal
+### For reboot from terminal
 
 		sudo reboot
 
-For increasing the volume
+### For increasing the volume
 
 		pactl set-sink-volume 0 +20%
 
-For installing google chrome
+### For installing google chrome
  
 		sudo apt-get update
 		sudo apt-get install google-chrome-beta
@@ -34,31 +34,25 @@ For installing google chrome
 		wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 		sudo gdebi google-chrome-stable_current_amd64.deb
 
-For finding mac address
+### For finding mac address
 
 		ifconfig
 		
 		sudo lshw
 
-wmic bios get serialnumber
+### wmic bios get serialnumber
 
 		sudo dmidecode -s system-serial-number
 
-Create Hotspot in linux-mint
+### Create Hotspot in linux-mint
 
 		sudo apt-get install hostapd git build-essential
-		git clone http//:github.com/oblique/create_ap.git
-		cd create_ap
 		git clone https://github.com/oblique/create_ap.git
 		cd create_ap
 		sudo make install
 		sudo create_ap wlp2s0 wlp2s0 
 
-
-
-	
-
-how to install java jdk in linux mint
+### how to install java jdk in linux mint
 
 		sudo apt-get update
 		sudo apt-get install default-jdk
