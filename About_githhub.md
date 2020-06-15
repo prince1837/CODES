@@ -123,7 +123,7 @@ must look at this two link.
 #### [link1](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 #### [link2](https://zzpanqing.github.io/2017/02/28/github-push-without-username-and-password.html)
 
-for Github SSH key first you have to open your setting then there you will get "SSH and GPF keys" which you have to click
+for Github SSH key first you have to open your setting then there you will get `SSH and GPG keys` which you have to click
 then you will get option add for "New SSH key" youhave to click it.
 after that you will get
 Tittle
