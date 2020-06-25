@@ -26,3 +26,7 @@ also removes it from devDependencies in package.json
 also removes it globally
 
     npm -g uninstall <name> --save 
+
+updating npm version
+
+     sudo npm install npm@latest -g
