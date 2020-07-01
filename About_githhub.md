@@ -40,13 +40,13 @@ if we want to see the data inside our file then run
                 ls
 
 
-# GITHUB COLABREATOR
+## GITHUB COLABREATOR
 First you have go to your repo then open your setting after that you have to go in manage-acess then you have to give your
 your github password. then manage-acess will open after that you can send invation link to appropriate person whom you want 
 to colabrate after he will accept your invation then he will also able to acess your Repo.
 
 
-# LIVE PROJECT ON GITHUB
+## LIVE PROJECT ON GITHUB
 first you have to clone your file from github through your VS CODE
 then you have to open that direcotory in VS CODE then you have to changewhatever you want if you want to make directory than
 you can make that  one also. if you want to do anything then you can.
@@ -59,13 +59,13 @@ first you have to open search bar for that you will
 
                 ctrl+Shift+P
 
-# For Push
+## For Push
 then you have to search "git Push" when you will click to git push after that you have to verify
 for verifying you vs code open will search-bar in this first you have to put your github-id name
 after this vs code will open again search bar for password then you have to put your github password
 
 
-# Git Pull
+## Git Pull
 then you have to search `git Pull` when you will click to git pull 
 after clicking git pull you will get all updates in from github in your local clone for this you dont need to verify yourself.
 
