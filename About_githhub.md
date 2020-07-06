@@ -78,11 +78,12 @@ after clicking git pull you will get all updates in from github in your local cl
 
 ### 1, Through Local 
 for local there is a four command.
-
+    
+    git config --global user.name "prince21298"
+    git config --global user.email "MY_NAME@example.com"
+    git config --global user.password "your password"
     git config --global credential.helper cache
     git config --global credential.helper 'cache --timeout=3600'
-    git config --global user.name "prince21298"
-    git config --global user.password "your password"
 
 #### I got that Code from this [link](https://help.github.com/en/github/using-git/caching-your-github-password-in-git#platform-linux)
 
