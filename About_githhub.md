@@ -46,6 +46,40 @@ your github password. then manage-acess will open after that you can send invati
 to colabrate after he will accept your invation then he will also able to acess your Repo.
 
 
+## Connection Time Out Error
+
+      sh: connect to host github.com port 22: Connection timed out
+      fatal: Could not read from remote repository.
+      Please make sure you have the correct access rights
+      and the repository exists.
+      Fatal: Could not fetch hotfix/1.66.1 from origin.
+     
+### Solution for that time out error
+#### Authentication
+If you get a question, answer "yes".
+
+    $ ssh -T -p 443 git@ssh.github.com
+    
+Hi name! You've successfully authenticated, but GitHub does not provide shell access.
+
+#### Override SSH settings
+
+    $ sudo nano ~/.ssh/config
+      Add section below to it
+    Host github.com
+      Hostname ssh.github.com
+      Port 443
+
+#### Verify
+
+If you tried this at the beginning, it would hang and timeout.
+
+    $ ssh -T git@github.com
+    Hi name! You've successfully authenticated, but GitHub does not
+    provide shell access.
+
+
+
 ## LIVE PROJECT ON GITHUB
 first you have to clone your file from github through your VS CODE
 then you have to open that direcotory in VS CODE then you have to changewhatever you want if you want to make directory than
