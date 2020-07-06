@@ -78,7 +78,20 @@ If you tried this at the beginning, it would hang and timeout.
     Hi name! You've successfully authenticated, but GitHub does not
     provide shell access.
 
+# GIT SUBMODULE
+Using of this we can add or clone one more repo in existing repo So it helps to add our code after pushing on source code platform also.
 
+##### For add
+
+    git init
+    git submodule add <url of second repo for cloning>
+    
+##### For Update that file 
+
+    git submodule update
+            or
+    git submodule update --init --recursive
+    
 
 ## LIVE PROJECT ON GITHUB
 first you have to clone your file from github through your VS CODE
