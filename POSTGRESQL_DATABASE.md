@@ -109,3 +109,12 @@ This is a command which you will run but be aware of your user name, password an
 
 IF YOU FOLLOWED THIS ALL THINGS THEN YOU WILL BE ABLE TO SEE ALL THOSE TABLES OR THAT ONE DATABASE  WHICH YOU MADE IN MYSQL DATABASE.
 
+# EXPORT & IMPORT Database
+
+If you want to import datbase in your postgres Database from your local `.psql`
+
+	psql -U username dbname < dbexport.pgsql
+
+If you want to export databse from your postgres database in your local `.psql` file
+
+	pg_dump -U USERNAME DBNAME > dbexport.pgsql
