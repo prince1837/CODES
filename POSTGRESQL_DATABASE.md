@@ -111,10 +111,16 @@ IF YOU FOLLOWED THIS ALL THINGS THEN YOU WILL BE ABLE TO SEE ALL THOSE TABLES OR
 
 # EXPORT & IMPORT Database
 
-If you want to import datbase in your postgres Database from your local `.psql`
+If you want to import datbase in your postgres Database from your local `.psql` file
 
 	psql -U username dbname < dbexport.pgsql
 
 If you want to export databse from your postgres database in your local `.psql` file
 
 	pg_dump -U USERNAME DBNAME > dbexport.pgsql
+	
+# INSTALLATION PG-ADMIN4
+then run this command
+
+	sudo apt-get install pgadmin4 pgadmin4-apache2
+
