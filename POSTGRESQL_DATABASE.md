@@ -1,10 +1,9 @@
+# POSTGRES DATABASE
 The first thing which is you have to install Postgresql Database
-
-
 For installing Postgresql 
 
-sudo apt-get update
-sudo apt install postgresql postgresql-contrib 
+	sudo apt-get update
+	sudo apt install postgresql postgresql-contrib 
 
 For opening 
 
