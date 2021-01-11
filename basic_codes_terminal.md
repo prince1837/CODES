@@ -29,3 +29,7 @@ we have a lot of package like git, npm, PyPI etc.
 if you want to install from any package and also want to save that then write on terminal 
 then write that command and use --save.
 like `npm install express --save`
+
+To giving Access to Directory to Read and Write for Ubuntu  
+     
+         sudo chmod -R 777 directory_path "after opening terminal"
