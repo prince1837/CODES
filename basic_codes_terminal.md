@@ -33,3 +33,15 @@ like `npm install express --save`
 To giving Access to Directory to Read and Write for Ubuntu  
      
          sudo chmod -R 777 directory_path "after opening terminal"
+         
+         get PID of software through terminal pidof `app_name`
+
+copy file from server and paste into local 
+          
+          scp -r server_user@server_ip:server_file_path local_folder_path
+          
+copy directory
+
+          cp -a  test.json new_file_name.json
+
+          
